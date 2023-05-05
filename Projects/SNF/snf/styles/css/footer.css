@@ -1,0 +1,601 @@
+/*===================================================
+    Contact Us Fixed Bottom Button
+======================================================*/
+@media(min-width:992px){
+    .bg-footer {
+        background-color: #33383c;
+        padding: 50px 0 30px;
+        position: relative;}
+    .footer-heading {
+        letter-spacing: 2px;
+    }
+    .footer_legal_links ul{
+        justify-content:center;
+    }
+    .footer-link a, .footer-link a:focus, .footer-link a:hover {
+        color: #acacac;
+        line-height: 40px;
+        font-size: 14px;
+        transition: all 0.5s;
+        text-decoration: none;
+    }
+    .footer-link a:hover {
+        color: #0082CA;
+    }
+    .contact-info {
+        color: #acacac;
+        font-size: 14px !important;
+    }
+    .footer-social-icon {
+        font-size: 15px;
+        height: 34px;
+        width: 34px;
+        line-height: 34px;
+        border-radius: 3px;
+        text-align: center;
+        display: inline-block;
+    }
+    .footer-alt {
+        font-size: 14px;color: #acacac;
+        text-align: center !important;}
+    .footer-heading {
+        position: relative;
+        padding-bottom: 12px;
+    }
+    .footer-heading:after {
+        content: '';
+        width: 25px;
+        border-bottom: 1px solid #FFF;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        border-bottom: 1px solid #0082CA;
+    }
+    #footer  {
+        position: relative;
+        background-color: #002d73;
+    }
+    .footerStopScroll  {
+        width:  100%;
+    }
+    .footerStopScroll #footer-menu ul  {
+        display:  inline-block;
+        text-align:  center;
+        width:  100%;
+    }
+    .footerStopScroll #footer-menu ul li  {
+        display:  inline-block;
+        width:  auto;
+        margin:  12px 15px;
+    }
+    .footerStopScroll #footer-menu ul li a  {
+        color:  #fff;
+        display:  inline-block;
+        text-decoration:  none;
+        text-transform:  uppercase;
+    }
+    .footerStopScroll .copyRights ul li  {
+        list-style:  none;
+    }
+    .footerStopScroll .copyRights ul li p  {
+        text-align:  center;
+        color:  #fff;
+        margin-top:  5px;
+        margin-bottom:  5px;
+        opacity:  .85;
+        font-size:  14px;
+        letter-spacing:  0.5px;
+        text-transform:  uppercase;
+        font-weight:  300;
+    }
+    .blended-logo{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 5%;
+        left: 5%;
+        opacity: .5;
+    }
+    .blended-logo img{
+        height: 50px;
+        /* opacity: .3; */
+    }
+    .fixed_button{
+        position:absolute !important;
+        margin-top:1900px;
+        bottom: auto !important;
+    }
+    .scroll-to-top > div{
+        display:flex;
+        justify-content:space-between;
+    }
+    .footerStopScroll .email-fixed-contact.top-button-visible a {
+        display: inline;
+        bottom: 0;
+        opacity: 1;
+    }
+    .footerStopScroll .email-fixed-contact.top-button-visible a {
+        display: inline;
+        bottom: 0;
+        opacity: 1;
+    }
+    .footerStopScroll .email-fixed-contact a, .footerStopScroll .email-fixed-contact a:hover, .footerStopScroll .email-fixed-contact a:link {
+        font-size: 12px;
+        position: fixed;
+        left: 0;
+        z-index: 99;
+        cursor: pointer;
+        color: #fff;
+        min-width: 59px;
+        height: 60px;
+        background-position: 17px 17px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #002d73;
+        animation: moveup .5s;
+    }
+    .footerStopScroll .email-fixed-contact a:before, .footerStopScroll .email-fixed-contact a:hover:before, .footerStopScroll .email-fixed-contact a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f003";
+        font-size: 15px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerStopScroll .email-fixed-contact a:after, .footerStopScroll .email-fixed-contact a:hover:after, .footerStopScroll .email-fixed-contact a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #002d73;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    .footerScroll .scroll-to-top.top-button-visible a {
+        display: inline;
+        bottom: 0;
+    }
+    .footerScroll .scroll-to-top a, .footerScroll .scroll-to-top a:hover, .footerScroll .scroll-to-top a:link {
+        font-size: 12px;
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        cursor: pointer;
+        color: #fff;
+        min-width: 59px;
+        height: auto;
+        background-position: 17px 17px;
+        padding-top: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: #002d73;
+        animation: moveup .5s;
+    }
+    .footerScroll .scroll-to-top a:before, .footerScroll .scroll-to-top a:hover:before, .footerScroll .scroll-to-top a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f106";
+        font-size: 20px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerScroll .scroll-to-top a:after, .footerScroll .scroll-to-top a:hover:after, .footerScroll .scroll-to-top a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #0082CA;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    .footerStopScroll .email-fixed-contact a, .footerStopScroll .email-fixed-contact a:hover, .footerStopScroll .email-fixed-contact a:link {
+        font-size: 12px;
+        position: fixed;
+        left: 0;
+        z-index: 99;
+        cursor: pointer;
+        color: #fff;
+        min-width: 59px;
+        height: 60px;
+        background-position: 17px 17px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #002d73;
+        animation: moveup .5s;
+    }
+    .footerStopScroll .email-fixed-contact a:before, .footerStopScroll .email-fixed-contact a:hover:before, .footerStopScroll .email-fixed-contact a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f003";
+        font-size: 15px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerStopScroll .email-fixed-contact a:after, .footerStopScroll .email-fixed-contact a:hover:after, .footerStopScroll .email-fixed-contact a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #002d73;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    .footerScroll .scroll-to-top.top-button-visible a {
+        display: inline;
+        bottom: 1rem;
+    }
+    .footerScroll .scroll-to-top a, .footerScroll .scroll-to-top a:hover, .footerScroll .scroll-to-top a:link {
+        font-size: 12px;
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        cursor: pointer;
+        left: unset;color: #fff;
+        min-width: 59px;
+        height: 60px;
+        background-position: 17px 17px;
+        padding-top: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: #0082CA;
+        animation: moveup .5s;
+    }
+    .footerScroll .scroll-to-top a:before, .footerScroll .scroll-to-top a:hover:before, .footerScroll .scroll-to-top a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f106";
+        font-size: 20px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerScroll .scroll-to-top a:after, .footerScroll .scroll-to-top a:hover:after, .footerScroll .scroll-to-top a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #0082CA;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    footer ul.list-group-horizontal {
+        justify-content:center;
+    }
+    .copyright{
+        height: 5rem;
+        position: relative;
+    }
+    .scroll-to-top{
+        position:relative;
+    }
+}
+
+@media(max-width:991px){
+    .footer_legal_links ul{
+        padding:0 !important;
+        /* display: flex; */}
+    .footer_legal_links ul li{
+        padding: 0 !important;
+    }
+    .bg-footer {
+        background-color: #33383c;
+        padding: 50px 0 30px;
+    }
+    .footer-heading {
+        letter-spacing: 2px;
+    }
+    .footer-link a {
+        color: #acacac;
+        line-height: 30px;
+        font-size: 14px;
+        transition: all 0.5s;
+        text-decoration: none;}
+    .footer-link a:hover {
+        color: #0082CA;
+    }
+    .contact-info {
+        color: #acacac;
+        font-size: 14px;
+        margin-bottom: 0;}
+    .footer-social-icon {
+        font-size: 15px;
+        height: 34px;
+        width: 34px;
+        line-height: 34px;
+        border-radius: 3px;
+        text-align: center;
+        display: inline-block;
+    }
+    .footer-alt {
+        font-size: 14px;color: #acacac;
+        text-align: center !important;
+    }
+    .footer-heading {
+        position: relative;
+        padding-bottom: 12px;
+    }
+    .footer-heading:after {
+        content: '';
+        width: 25px;
+        border-bottom: 1px solid #FFF;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        border-bottom: 1px solid #0082CA;
+    }
+    #footer{
+        position: relative;
+        background-color: #002d73;
+    }
+    .footerStopScroll  {
+        width:  100%;
+    }
+    .footerStopScroll #footer-menu ul  {
+        display:  inline-block;
+        text-align:  center;
+        width:  100%;
+    }
+    .footerStopScroll #footer-menu ul li  {
+        display:  inline-block;
+        width:  auto;
+        margin:  12px 15px;
+    }
+    .footerStopScroll #footer-menu ul li a  {
+        color:  #fff;
+        display:  inline-block;
+        text-decoration:  none;
+        text-transform:  uppercase;
+    }
+    .footerStopScroll .copyRights ul li  {
+        list-style:  none;
+    }
+    .footerStopScroll .copyRights ul li p  {
+        text-align:  center;
+        color:  #fff;
+        margin-top:  5px;
+        margin-bottom:  5px;
+        opacity:  .85;
+        font-size:  14px;
+        letter-spacing:  0.5px;
+        text-transform:  uppercase;
+        font-weight:  300;
+    }
+    .blended-logo{
+        /* position: absolute; */
+        display: none;
+        justify-content: center;
+        align-items: center;
+        bottom: 5%;
+        right: 5%;
+        opacity: .5;
+    }
+    .blended-logo img{
+        height: 50px;
+        /* opacity: .3; */
+    }
+    .fixed_button{
+        position:absolute !important;
+        margin-top:1900px;
+        bottom: auto !important;
+    }
+    .scroll-to-top > div{
+        display:flex;
+        justify-content:space-between;
+    }
+    .footerStopScroll .email-fixed-contact.top-button-visible a {
+        display: inline;
+        bottom: 0;
+        opacity: 1;
+    }
+    .footerStopScroll .email-fixed-contact.top-button-visible a {
+        display: inline;
+        bottom: 0;
+        opacity: 1;
+    }
+    .footerStopScroll .email-fixed-contact a, .footerStopScroll .email-fixed-contact a:hover, .footerStopScroll .email-fixed-contact a:link {
+        font-size: 12px;
+        position: fixed;
+        left: 0;
+        z-index: 99;
+        cursor: pointer;
+        color: #fff;
+        min-width: 59px;
+        height: 60px;
+        background-position: 17px 17px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #002d73;
+        animation: moveup .5s;
+    }
+    .footerStopScroll .email-fixed-contact a:before, .footerStopScroll .email-fixed-contact a:hover:before, .footerStopScroll .email-fixed-contact a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f003";
+        font-size: 15px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerStopScroll .email-fixed-contact a:after, .footerStopScroll .email-fixed-contact a:hover:after, .footerStopScroll .email-fixed-contact a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #002d73;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    .footerScroll .scroll-to-top.top-button-visible a {
+        display: inline;
+        bottom: 0;
+    }
+    .footerScroll .scroll-to-top a, .footerScroll .scroll-to-top a:hover, .footerScroll .scroll-to-top a:link {
+        font-size: 12px;
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        cursor: pointer;
+        color: #fff;
+        min-width: 59px;
+        height: auto;
+        background-position: 17px 17px;
+        padding-top: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: #002d73;
+        animation: moveup .5s;
+    }
+    .footerScroll .scroll-to-top a:before, .footerScroll .scroll-to-top a:hover:before, .footerScroll .scroll-to-top a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f106";
+        font-size: 20px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerScroll .scroll-to-top a:after, .footerScroll .scroll-to-top a:hover:after, .footerScroll .scroll-to-top a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #0082CA;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    .footerStopScroll .email-fixed-contact a, .footerStopScroll .email-fixed-contact a:hover, .footerStopScroll .email-fixed-contact a:link {
+        font-size: 12px;
+        position: fixed;
+        left: 0;
+        z-index: 99;
+        cursor: pointer;
+        color: #fff;
+        min-width: 59px;
+        height: 60px;
+        background-position: 17px 17px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #002d73;
+        animation: moveup .5s;
+    }
+    .footerStopScroll .email-fixed-contact a:before, .footerStopScroll .email-fixed-contact a:hover:before, .footerStopScroll .email-fixed-contact a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f003";
+        font-size: 15px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerStopScroll .email-fixed-contact a:after, .footerStopScroll .email-fixed-contact a:hover:after, .footerStopScroll .email-fixed-contact a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #002d73;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    .footerScroll .scroll-to-top.top-button-visible a {
+        display: inline;
+        bottom: 1rem;
+    }
+    .footerScroll .scroll-to-top a, .footerScroll .scroll-to-top a:hover, .footerScroll .scroll-to-top a:link {
+        font-size: 12px;
+        position: fixed;
+        right: unset;
+        z-index: 99;
+        cursor: pointer;
+        left: 0;color: #fff;
+        min-width: 59px;
+        height: 60px;
+        background-position: 17px 17px;
+        padding-top: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: #0082CA;
+        animation: moveup .5s;
+    }
+    .footerScroll .scroll-to-top a:before, .footerScroll .scroll-to-top a:hover:before, .footerScroll .scroll-to-top a:link:before {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f106";
+        font-size: 20px;
+        display: block;
+        position: static;
+        top: 11px;
+        color: #fff;
+    }
+    .footerScroll .scroll-to-top a:after, .footerScroll .scroll-to-top a:hover:after, .footerScroll .scroll-to-top a:link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #0082CA;
+        top: 0;
+        left: -5px;
+        height: 100%;
+        width: 15px;
+    }
+    footer ul.list-group-horizontal {
+        /* justify-content: flex-start; */
+    }
+    .copyright{
+        height: 5rem;
+        position: relative;
+    }
+    .scroll-to-top{
+        position:relative;
+    }
+}

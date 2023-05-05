@@ -1,0 +1,40 @@
+/*===================================================
+
+Directory:
+0.) Site Wide Classes
+I.) Generic Inner Pages
+II.) Footer
+III.) Search Results
+IV.) Media Page
+V.) Careers
+VI.) Forms
+VII.) Terms and Usage
+IX.) News
+======================================================*/
+
+.card-filter .widget-title{
+    display: none !important;
+}
+.widget .wpc-filters-widget-controls-container a, .widget-area .widget .wpc-filters-widget-controls-container a, .wpc-filters-widget-main-wrapper .wpc-filters-widget-controls-container a, .wpc-filters-widget-main-wrapper a.wpc-filters-reset-button, .wpc-filters-widget-main-wrapper a.wpc-filters-submit-button{
+    padding:0 !important;
+    background-color:#0082CA !important;
+}
+.card-filter .filter-title-box h3{
+    margin:0;
+    color:#002d73;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card-filter .wpc-filter-content{
+
+}
+.card-filter .wpc-filters-widget-select{
+
+}
+.card-filter .wpc-filters-widget-select:before{
+
+}
+.card-filter .wpc-filters-widget-select:after{
+
+}

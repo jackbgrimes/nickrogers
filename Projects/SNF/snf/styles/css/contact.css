@@ -1,0 +1,84 @@
+/*===================================================
+
+Directory:
+0.) Sidebar Contact
+I.) Generic Inner Pages
+II.) Footer
+III.) Search Results
+IV.) Media Page
+V.) Careers
+VI.) Forms
+VII.) Terms and Usage
+IX.) News
+======================================================*/
+.output{
+	display: none;
+}
+.country_name{
+	color:#002d73;
+	font-weight: 800;
+	font-size: 1.15rem;
+}
+.output .country_list_elements li{
+	display: inline-flex;
+	justify-content: start;
+	align-items: center;
+	padding: .95rem .05rem;}
+.output .country_list_elements li i{
+	padding: 6px 10px;
+	background-color: rgb(107,105,135);
+	border-radius: 50%;
+	color: #e2e2e2;
+	margin: 0 1rem 0 0;
+}
+.output .country_list_elements li p.lead{
+	margin:0;
+	font-size: .95rem !important;
+	color: #212529;
+	text-align: left !important;
+	font-weight: 600;
+}
+.output .country_list_elements li a{
+	color: #33383c;
+	text-decoration: none;
+}
+.output .country_list_elements li:hover a p{
+	border-bottom: solid 1px;
+}
+.sidebar-widget .card-body li {
+	padding: 0.5rem 0 !important;
+}
+.sidebar .card-body{
+	padding: 1.25rem .75rem;
+}
+.sidebar .card-body select#location_category option.country-select{
+	width: calc(100% - 20px);
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	list-style-type: none;
+	text-align: left;
+	cursor: pointer;
+	/* line-height: 1; */
+	/* padding: 10px; */
+	border-top: 1px solid #cfd7dc;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	letter-spacing: .5px;color: #0d2a40;}
+.sidebar .card-body select#location_category{
+	width: 100%;
+	border-top: none;
+	/* padding: 3px 0 12px; */
+	max-height: 316px;
+	overflow: hidden;
+	border: solid 1px rgb(107,105,135);
+	/* background: rgb(107,105,135); */
+	z-index: 2;
+	color: rgb(107,105,135);text-transform: uppercase;}
+
+.dropdown-divider {
+	height: 0;
+	margin: 0.5rem 0;
+	overflow: hidden;
+	border-top: 1px solid #e9ecef;
+}
